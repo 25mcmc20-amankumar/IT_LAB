@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+
+    <book>
+        <title>Java Programming</title>
+        <author>James Gosling</author>
+        <genre>Programming</genre>
+        <price>450</price>
+        <publish_date>2022-01-10</publish_date>
+    </book>
+
+    <book>
+        <title>Clean Code</title>
+        <author>Robert Martin</author>
+        <genre>Programming</genre>
+        <price>550</price>
+        <publish_date>2021-05-15</publish_date>
+    </book>
+
+    <book>
+        <title>Effective Java</title>
+        <author>Joshua Bloch</author>
+        <genre>Programming</genre>
+        <price>600</price>
+        <publish_date>2019-06-12</publish_date>
+    </book>
+
+    <book>
+        <title>The Pragmatic Programmer</title>
+        <author>Andrew Hunt</author>
+        <genre>Programming</genre>
+        <price>500</price>
+        <publish_date>2020-08-01</publish_date>
+    </book>
+
+    <book>
+        <title>Wings of Fire</title>
+        <author>A P J Abdul Kalam</author>
+        <genre>Biography</genre>
+        <price>300</price>
+        <publish_date>2015-03-01</publish_date>
+    </book>
+
+    <book>
+        <title>Long Walk to Freedom</title>
+        <author>Nelson Mandela</author>
+        <genre>Biography</genre>
+        <price>400</price>
+        <publish_date>2014-02-10</publish_date>
+    </book>
+
+    <book>
+        <title>Steve Jobs</title>
+        <author>Walter Isaacson</author>
+        <genre>Biography</genre>
+        <price>450</price>
+        <publish_date>2016-09-05</publish_date>
+    </book>
+
+    <book>
+        <title>The Alchemist</title>
+        <author>Paulo Coelho</author>
+        <genre>Fiction</genre>
+        <price>250</price>
+        <publish_date>2018-07-21</publish_date>
+    </book>
+
+    <book>
+        <title>Harry Potter and the Sorcerer's Stone</title>
+        <author>J K Rowling</author>
+        <genre>Fantasy</genre>
+        <price>350</price>
+        <publish_date>2001-11-16</publish_date>
+    </book>
+
+    <book>
+        <title>The Hobbit</title>
+        <author>J R R Tolkien</author>
+        <genre>Fantasy</genre>
+        <price>400</price>
+        <publish_date>1937-09-21</publish_date>
+    </book>
+
+    <book>
+        <title>Rich Dad Poor Dad</title>
+        <author>Robert Kiyosaki</author>
+        <genre>Finance</genre>
+        <price>320</price>
+        <publish_date>2017-04-11</publish_date>
+    </book>
+
+    <book>
+        <title>The Intelligent Investor</title>
+        <author>Benjamin Graham</author>
+        <genre>Finance</genre>
+        <price>700</price>
+        <publish_date>2005-10-01</publish_date>
+    </book>
+
+    <book>
+        <title>Atomic Habits</title>
+        <author>James Clear</author>
+        <genre>Self-Help</genre>
+        <price>480</price>
+        <publish_date>2018-10-16</publish_date>
+    </book>
+
+    <book>
+        <title>The Power of Now</title>
+        <author>Eckhart Tolle</author>
+        <genre>Self-Help</genre>
+        <price>420</price>
+        <publish_date>2012-03-30</publish_date>
+    </book>
+
+    <book>
+        <title>To Kill a Mockingbird</title>
+        <author>Harper Lee</author>
+        <genre>Classic</genre>
+        <price>280</price>
+        <publish_date>1960-07-11</publish_date>
+    </book>
+
+    <book>
+        <title>1984</title>
+        <author>George Orwell</author>
+        <genre>Classic</genre>
+        <price>300</price>
+        <publish_date>1949-06-08</publish_date>
+    </book>
+
+</catalog>
