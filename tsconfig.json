@@ -1,10 +1,10 @@
 {
   "compilerOptions": {
     "target": "es6",
-    "module": "commonjs",  // or "es6" if using ES modules in browser
+    "module": "es6",
     "outDir": "./dist",
-    "rootDir": "./src",
     "strict": true,
     "esModuleInterop": true
-  }
+  },
+  "include": ["src/**/*"]
 }
