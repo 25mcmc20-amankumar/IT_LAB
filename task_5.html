@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <link rel="stylesheet" href="task_5.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="todoapp">
+        <h1>Todo App</h1>
+        <section class="top_section">
+          <h3>Add your daily task.</h3>
+        </section>
+        <form action="">
+          <div class="input_container">
+            <label for="title">Title</label>
+            <input id="title" name="title" placeholder="Enter title" />
+
+            <div class="textarea_control">
+              <label for="desc">Description</label>
+              <textarea
+                name="description"
+                id="description"
+                rows="5"
+                cols="50"
+                placeholder="Enter description"
+              ></textarea>
+            </div>
+
+            <div class="priority_container">
+              <select name="priority" id="priority">
+                <option value="">Select Priority</option>
+                <option value="low_priority">Low Priority</option>
+                <option value="medium_priority">Medium Priority</option>
+                <option value="high_priority">High Priority</option>
+              </select>
+            </div>
+            <div class="date_container">
+              <label for="dueDate">Due Date</label>
+              <input type="date" id="dueDate" />
+            </div>
+          </div>
+          <div class="button_container">
+            <button type="submit">Add Task</button>
+          </div>
+
+          <div class="filter_container">
+            <select id="filter">
+              <option value="all">All Tasks</option>
+              <option value="completed">Completed</option>
+              <option value="pending">Pending</option>
+            </select>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="dist/task.js"></script>
+  </body>
+</html>

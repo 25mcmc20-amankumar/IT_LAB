@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.todoapp{
+    max-width: 600px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: wheat;
+    border-radius: 40px;
+    box-shadow: 4px 3px 5px rgb(1,1,1,0.1);
+}
+.top_section h3{
+    font-size: 23px;
+    margin-bottom: 10px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    padding: 15px;
+    justify-content: center;
+    display: inline-flex;
+}
+.todoapp h1{
+    font-size: 50px;
+    justify-content: center;
+    display: flex;
+    padding: 15px;
+    background-color:aliceblue;
+    border-radius: 20px;
+    margin: 40px;
+}
+label{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+input{
+    width: 100%;
+    font-size: 15px;
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input:focus{
+    outline-color:aqua;
+}
+textarea:focus{
+    outline-color: aqua;
+}
+.textarea_control{
+    grid-column: 1/span 2;
+    margin-top: 15px;
+}
+.textarea_control textarea{
+    width: 100%;
+    border-radius: 4px;
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+
+}
+.priority_container{
+    margin-top: 15px;
+}
+.priority_container priority{
+    padding: 5px;
+}
+.button_container{
+    margin-top: 15px;
+    justify-content: center;
+    display: flex;
+}
+button{
+    background-color:blue;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    color: wheat;
+}
+button:hover{
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+}
+.task {
+    background-color: aliceblue;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.task h4 {
+    margin-bottom: 5px;
+}
+
+.task p {
+    margin-bottom: 10px;
+}
+
+.task .priority {
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 12px;
+}
+
+.low_priority {
+    background-color: lightgreen;
+}
+
+.medium_priority {
+    background-color: orange;
+}
+
+.high_priority {
+    background-color: red;
+    color: white;
+}
+
+.task button {
+    margin-top: 10px;
+    background-color: crimson;
+}
+.date_container{
+    margin-top: 15px;
+}
+p{
+    margin-top: 15px;
+}
