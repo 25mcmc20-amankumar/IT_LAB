@@ -1,0 +1,13 @@
+Install Backend (Express) terminal 1
+step 1-> cd backend
+step 2->npm init -y (initialize project)
+step 3-> npm install express cors mysql2 (install require packages.)
+step 4-> node server.js (run project)
+
+Install Frontend (React) terminal 2
+npx create-react-app frontend
+cd frontend
+npm install -> (insatll dependecies)
+npm install axios-> (install axios)
+npm start
+
